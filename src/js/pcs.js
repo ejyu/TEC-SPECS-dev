@@ -1,7 +1,7 @@
 import { numPcs } from "./layout.js";
 import { esportsMap } from "./esports_ids.js";
 
-const PLAY_TIME_MIN = 0.5; //players get this many minutes before being booted, unless the PCs have been reserved
+const PLAY_TIME_MIN = 0.25; //players get this many minutes before being booted, unless the PCs have been reserved
 const RESERVE_TIME_MIN = 3 //the app will not assign a reserved pc this many minutes before the reservation time
 const RESERVE_TIME_REJECT = 3; //seconds; amount of time where a reservation is deemed too close to the current time
 
@@ -53,7 +53,6 @@ function assignPc(id){
     let time_remaining = 0;
     for(let value of inUsePcQueue){
         use_time = time - value.time;
-        console.log(value.num + " in use for: " + use_time/1000 + " seconds");
         if((use_time/60000) > PLAY_TIME_MIN){
             console.log("TIME IS UP FOR USER AT PC " + value.num);
             inUsePcQueue.delete(value);
@@ -62,7 +61,7 @@ function assignPc(id){
             inUsePcQueue.add(value);
             return true;
         }
-        return false;
+        break;
     }
     if(use_time != 0){
         time_remaining = PLAY_TIME_MIN*60 - use_time/1000;
@@ -144,6 +143,7 @@ function reservePcs(pcs, team, startTime, endTime){
     while(pcs.length > 0){
         pc = pcs.pop();
         reservedPcMap.set(pc, {team: team, start: startTime, end:endTime});
+        console.log("Reservation confirmed for " + team);
     }
 }
 
