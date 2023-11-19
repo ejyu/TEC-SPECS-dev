@@ -146,15 +146,24 @@
             </table>
           </div>
 
+          <div class="block-title">PC Status</div>
+          <div class="block block-strong inset">
+            <p>Tap or click on a PC to see its availability and other information.</p>
+          </div>
         
         <p class="grid grid-cols-2 grid-gap">
-          <button class="button button-large">Use PC</button>
-          <button class="button button-large">Use PC</button>
+          <button class="button button-large button-fill">Use PC</button>
+          <button class="button button-large button-fill">Free PC</button>
         </p>
         <p class="grid grid-cols-2 grid-gap">
-          <button class="button button-large">Disable PC</button>
-          <button class="button button-large">Enable PC</button>
+          <button class="button button-large button-fill">Mark Disabled</button>
+          <button class="button button-large button-fill">Mark Enabled</button>
         </p>
+        <div class="block grid grid-cols-3 grid-gap">
+          <div></div>
+          <a href="#" class="button panel-open" data-panel="right">Open Console</a>
+          <div></div>
+        </div>
         </div>
     </div>
     </div>
