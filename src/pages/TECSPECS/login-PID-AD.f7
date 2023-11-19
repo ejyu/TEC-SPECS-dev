@@ -9,7 +9,7 @@
             <span class="if-not-md">Back</span>
           </a>
         </div>
-        <div class="title">Test</div>
+        <div class="title">Login with PID / ID</div>
       </div>
     </div>
     <div class="page-content">
@@ -45,7 +45,7 @@
                 <a href="#" class="list-button">Sign In</a>
               </li>
             </ul>
-            <div class="block-footer">Some text with login information.</div>
+            <!-- <div class="block-footer">Messages will go here if needed.</div> -->
           </div>
         </form>
       </div>

@@ -147,10 +147,13 @@
           </div>
 
         
-        <p class="grid grid-cols-3 grid-gap">
-            <div></div>
-            <button class="button button-large">Use PC</button>
-            <div></div>
+        <p class="grid grid-cols-2 grid-gap">
+          <button class="button button-large">Use PC</button>
+          <button class="button button-large">Use PC</button>
+        </p>
+        <p class="grid grid-cols-2 grid-gap">
+          <button class="button button-large">Disable PC</button>
+          <button class="button button-large">Enable PC</button>
         </p>
         </div>
     </div>

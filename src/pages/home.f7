@@ -30,18 +30,31 @@
 
         <p>Each tab/view may have different layout, different navbar type (dynamic, fixed or static) or without navbar like this tab.</p> -->
 
-        <strong>Name Idea:</strong>
+        <h1>Name Idea</h1>
         <p>TEC SPECS</p>
-          <p>TEC = Triton Esports Center</p>
-          <p>SPECS = Specialized Player and Enrollment Control System</p>
+        <p>TEC = Triton Esports Center</p>
+        <p>SPECS = Specialized Player and Enrollment Control System</p>
+        <p>SPECS = S_________ P______ Esports Center S_____</p>
+        <br />
+        <hr />
       </div>
-      <div class="block-title">Page Testing</div>
+      <div class="block">
+        <h1>Page Testing</h1>
+      </div>
+      <div class="block-title">Login</div>
       <div class="list list-strong inset list-dividers-ios">
         <ul>
-          <li>
+          <!-- <li>
             <a href="#" class="item-content item-link">
               <div class="item-inner">
-                <div class="item-title login-screen-open" data-login-screen="#my-login-screen">Testing: login (Scan ID)</div>
+                <div class="item-title login-screen-open" data-login-screen="#my-login-screen">Testing: login (Scan ID) (Popup)</div>
+              </div>
+            </a>
+          </li> -->
+          <li>
+            <a href="/login-ID/" class="item-content item-link">
+              <div class="item-inner">
+                <div class="item-title">Testing: login (Scan ID) (Paged)</div>
               </div>
             </a>
           </li>
@@ -52,6 +65,12 @@
               </div>
             </a>
           </li>
+        </ul>
+      </div>
+
+      <div class="block-title">After Sign In</div>
+      <div class="list list-strong inset list-dividers-ios">
+        <ul>
           <li>
             <a href="/adminSignOn/" class="item-content item-link">
               <div class="item-inner">
@@ -83,6 +102,9 @@
         </ul>
       </div>
       
+      <div class="block">
+        <h1>More</h1>
+      </div>
       <div class="block-title">References</div>
       <div class="list list-strong inset list-dividers-ios">
         <ul>

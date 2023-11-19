@@ -1,0 +1,56 @@
+<template>
+  <div class="page" data-name="about">
+    <div class="navbar">
+      <div class="navbar-bg"></div>
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="if-not-md">Back</span>
+          </a>
+        </div>
+        <div class="title">Login with Student ID Card</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <!-- <div class="block-title">About My App</div> -->
+      <div class="block">
+        <!-- <p>Text goes here.</p> -->
+        <div class="block" align="center">
+          <h1>Welcome back</h1>
+          <h2>Scan your student ID to get started.</h2>
+          <br />
+          <div class="block-footer">
+            <div class="block-footer">
+              <P>Scanning your student ID will automatically sign you in.</P>
+            </div>
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <!-- This is a placeholder for content above the button area.-->
+          <br />
+          <br />
+          <br />
+          <br />
+          <div class="block-footer">
+            <a href="/404/">Don't have your ID?</a>
+            <p>You can also use your PID or sign in with your Active Directory (AD) credentials.</p>
+            <a class="link" href="/login-PID-AD/" class="button button-fill button-large">I don't have my ID</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </template>

@@ -8,6 +8,7 @@ import SettingsPage from '../pages/settings.f7';
 
 /* Custom Pages */
 import loginPIDAD from '../pages/TECSPECS/login-PID-AD.f7';
+import loginID from '../pages/TECSPECS/login-ID.f7';
 import studentSignOn from '../pages/TECSPECS/studentSignOn.f7';
 import adminSignOn from '../pages/TECSPECS/adminSignOn.f7';
 import recStaffSignOn from '../pages/TECSPECS/recStaffSignOn.f7';
@@ -41,6 +42,10 @@ var routes = [
   {
     path: '/settings/',
     component: SettingsPage,
+  },
+  {
+    path: '/login-ID/',
+    component: loginID,
   },
   {
     path: '/login-PID-AD/',
