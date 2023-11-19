@@ -6,7 +6,7 @@ Framework7 app created with following options:
 
 ```
 {
-  "cwd": "C:\\Users\\ejyu2\\Documents\\GitHub\\TEC-SPECS-dev",
+  "cwd": "C:\\Users\\ejyu2\\OneDrive\\Documents\\GitHub\\TEC-SPECS-dev",
   "type": [
     "web",
     "pwa"
@@ -15,77 +15,14 @@ Framework7 app created with following options:
   "framework": "core",
   "template": "tabs",
   "bundler": "vite",
-  "cssPreProcessor": "less",
+  "cssPreProcessor": false,
   "theming": {
-    "customColor": true,
+    "customColor": false,
     "color": "#007aff",
     "darkMode": true,
     "iconFonts": true
   },
-  "customBuild": true,
-  "customBuildConfig": {
-    "rtl": false,
-    "darkTheme": true,
-    "lightTheme": true,
-    "themes": [
-      "ios",
-      "md"
-    ],
-    "components": [
-      "dialog",
-      "popup",
-      "login-screen",
-      "popover",
-      "actions",
-      "sheet",
-      "toast",
-      "preloader",
-      "progressbar",
-      "sortable",
-      "swipeout",
-      "accordion",
-      "contacts-list",
-      "virtual-list",
-      "list-index",
-      "timeline",
-      "tabs",
-      "panel",
-      "card",
-      "chip",
-      "form",
-      "input",
-      "checkbox",
-      "radio",
-      "toggle",
-      "range",
-      "stepper",
-      "smart-select",
-      "grid",
-      "calendar",
-      "picker",
-      "infinite-scroll",
-      "pull-to-refresh",
-      "data-table",
-      "fab",
-      "searchbar",
-      "messages",
-      "messagebar",
-      "swiper",
-      "photo-browser",
-      "notification",
-      "autocomplete",
-      "tooltip",
-      "gauge",
-      "skeleton",
-      "color-picker",
-      "treeview",
-      "text-editor",
-      "area-chart",
-      "pie-chart",
-      "breadcrumbs",
-      "typography"
-    ]
-  }
+  "customBuild": false
 }
 ```
 

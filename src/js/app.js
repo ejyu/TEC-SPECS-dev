@@ -1,12 +1,12 @@
 import $ from 'dom7';
-import Framework7 from './framework7-custom.js';
+import Framework7 from 'framework7/bundle';
 
 // Import F7 Styles
-import '../css/framework7-custom.less';
+import 'framework7/css/bundle';
 
 // Import Icons and App Custom Styles
 import '../css/icons.css';
-import '../css/app.less';
+import '../css/app.css';
 
 
 // Import Routes
@@ -21,9 +21,7 @@ import App from '../app.f7';
 var app = new Framework7({
   name: 'TEC SPECS', // App name
   theme: 'auto', // Automatic theme detection
-  colors: {
-    primary: '#007aff',
-  },
+
   darkMode: true,
   el: '#app', // App root element
   component: App, // App main component

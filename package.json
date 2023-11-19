@@ -28,7 +28,6 @@
   "devDependencies": {
     "cpy-cli": "^5.0.0",
     "cross-env": "^7.0.3",
-    "less": "^4.2.0",
     "postcss-preset-env": "^9.3.0",
     "rollup-plugin-framework7": "^1.2.1",
     "vite": "^5.0.0",

@@ -6,6 +6,13 @@ import CatalogPage from '../pages/catalog.f7';
 import ProductPage from '../pages/product.f7';
 import SettingsPage from '../pages/settings.f7';
 
+/* Custom Pages */
+import loginPIDAD from '../pages/TECSPECS/login-PID-AD.f7';
+import studentSignOn from '../pages/TECSPECS/studentSignOn.f7';
+import adminSignOn from '../pages/TECSPECS/adminSignOn.f7';
+import recStaffSignOn from '../pages/TECSPECS/recStaffSignOn.f7';
+import esportsStaffSignOn from '../pages/TECSPECS/esportsStaffSignOn.f7';
+
 import DynamicRoutePage from '../pages/dynamic-route.f7';
 import RequestAndLoad from '../pages/request-and-load.f7';
 import NotFoundPage from '../pages/404.f7';
@@ -34,6 +41,26 @@ var routes = [
   {
     path: '/settings/',
     component: SettingsPage,
+  },
+  {
+    path: '/login-PID-AD/',
+    component: loginPIDAD,
+  },
+  {
+    path: '/studentSignOn/',
+    component: studentSignOn,
+  },
+  {
+    path: '/adminSignOn/',
+    component: adminSignOn,
+  },
+  {
+    path: '/recStaffSignOn/',
+    component: recStaffSignOn,
+  },
+  {
+    path: '/esportsStaffSignOn/',
+    component: esportsStaffSignOn,
   },
 
   {

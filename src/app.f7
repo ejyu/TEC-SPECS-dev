@@ -13,7 +13,7 @@
             </div>
           </div>
           <div class="page-content">
-            <div class="block">Left panel content goes here</div>
+            <div class="block">TEC SPECS v0.0.1-canary</div>
           </div>
         </div>
       </div>
@@ -29,7 +29,7 @@
             </div>
           </div>
           <div class="page-content">
-            <div class="block">Right panel content goes here</div>
+            <div class="block">TEC SPECS v0.0.1-canary</div>
           </div>
         </div>
       </div>
@@ -102,8 +102,44 @@
       <div class="view">
         <div class="page">
           <div class="page-content login-screen-content">
-            <div class="login-screen-title">Login</div>
-            <div class="list">
+            <div class="login-screen-title">Welcome back</div>
+              <div class="block" align="center">
+                <p>Scan your student ID to get started.</p>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <!-- <br />
+                <br /> -->
+                <div class="block-footer">
+                  <div class="block-footer">
+                    <P>Scanning your student ID will automatically sign you in.</P>
+                  </div>
+                </div>
+                <br />
+                <div class="block-footer">
+                  <a href="/404/">Don't have your ID?</a>
+                  <p>You can also use your PID or sign in with your Active Directory (AD) credentials.</p>
+                  <!-- <a class="link" href="/login-PID-AD/" class="button button-fill button-large">I don't have my ID</a> -->
+                </div>
+              </div>
+              <div class="list">
+                <ul>
+                  <li>
+                    <!-- <a href="#" class="item-link list-button login-button" @click="${alertLoginData}">Sign In</a> -->
+                    <a href="/404/" class="item-link button link button-fill">I don't have my ID</a>
+                  </li>
+                </ul>
+              </div>
+            <!-- <div class="list">
               <ul>
                 <li class="item-content item-input">
                   <div class="item-inner">
@@ -124,8 +160,8 @@
                   </div>
                 </li>
               </ul>
-            </div>
-            <div class="list">
+            </div> -->
+            <!-- <div class="list">
               <ul>
                 <li>
                   <a href="#" class="item-link list-button login-button" @click="${alertLoginData}">Sign In</a>
@@ -133,7 +169,7 @@
                 </li>
               </ul>
               <div class="block-footer">Some text about login information.<br/>Click "Sign In" to close Login Screen</div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
